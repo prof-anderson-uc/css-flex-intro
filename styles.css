@@ -6,26 +6,32 @@
 
 /* Demo 1: Turn on Flexbox on the parent. */
 .demo-one {
+
 }
 
 /* Demo 2: Change a row into a column. */
 .demo-two {
+
 }
 
 /* Demo 3: Arrange items on the main axis. */
 .demo-three {
+
 }
 
 /* Demo 4: Center items on both axes. */
 .demo-four {
+
 }
 
 /* Demo 5: Wrap items and add spacing. */
 .demo-five {
+
 }
 
 /* Demo 6: Arrange a navigation list. */
 .demo-six {
+
 }
 
 /* =====================================================
@@ -33,35 +39,41 @@
    ===================================================== */
 
 .challenge-one {
+
 }
 
 .challenge-two {
+
 }
 
 .challenge-three {
+
 }
 
 .challenge-four {
+
 }
+
+
 
 /* =====================================================
    PROVIDED APPEARANCE STYLES — DO NOT EDIT BELOW HERE
-   These make the examples easy to see.
+   These make the examples easier to see.
    ===================================================== */
 
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.5;
-    color: #222;
+    line-height: 1.4;
+    color: black;
     background-color: #e6eaed;
-    padding: 20px;
+    padding: 1rem;
 }
 
 header, main {
     max-width: 900px;
     margin: 0 auto;
     background-color: white;
-    padding: 20px;
+    padding: 1rem;
 }
 
 header {
@@ -70,20 +82,16 @@ header {
 
 h1 {
     font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 10px;
 }
 
 h2 {
     font-size: 1.5rem;
-    font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
 }
 
 h3 {
     font-size: 1.2rem;
-    font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 0.5rem;
 }
 
 p {
@@ -92,8 +100,8 @@ p {
 
 .demo-section, .challenge-intro, .intro, .reflection {
     border: 2px solid #c4ccd2;
-    padding: 16px;
-    margin-bottom: 22px;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 .challenge-intro {
@@ -103,8 +111,8 @@ p {
 .practice-area, .challenge-surface {
     background-color: #f0f3f5;
     border: 2px dashed #71879a;
-    padding: 12px;
-    margin-top: 12px;
+    padding: 0.75rem;
+    margin-top: 1rem;
 }
 
 .practice-area {
@@ -114,7 +122,7 @@ p {
 .flex-item {
     background-color: lightsteelblue;
     border: 2px solid steelblue;
-    padding: 12px 20px;
+    padding: 1rem 2rem;
     width: 100px;
     text-align: center;
 }
@@ -132,7 +140,7 @@ p {
 .demo-navigation, .challenge-nav {
     background-color: #e2eaf0;
     border: 2px solid #879eaf;
-    padding: 12px;
+    padding: 0.5rem;
 }
 
 .demo-navigation ul, .challenge-nav ul {
@@ -142,20 +150,20 @@ p {
 .demo-navigation a, .challenge-nav a {
     display: block;
     background-color: #c9dced;
-    padding: 8px 12px;
+    padding: 0.5rem 1rem;
     color: #222;
     text-decoration: none;
 }
 
 .note {
-    font-size: .9rem;
+    font-size: 0.9rem;
 }
 
 .target {
     display: block;
     max-width: 650px;
     width: 100%;
-    margin-bottom: 12px;
+    margin-bottom: 1rem;
     border: 1px solid #aaa;
 }
 
@@ -170,7 +178,7 @@ p {
 .message {
     background-color: #ccebd2;
     border: 2px solid #70a07a;
-    padding: 10px 22px;
+    padding: 0.5rem 1rem;
     width: 120px;
     text-align: center;
 }
@@ -181,7 +189,7 @@ p {
 }
 
 .challenge-three button {
-    padding: 10px 14px;
+    padding: 1rem;
     background-color: #c9dced;
     border: 1px solid #718fa8;
 }
