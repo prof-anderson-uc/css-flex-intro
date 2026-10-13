@@ -1,8 +1,8 @@
-/* =====================================================
+/* ======================================
    LEARNING CSS FLEXBOX
    Write your Flexbox properties in these rules.
    Leave the provided appearance styles below alone.
-   ===================================================== */
+   ====================================== */
 
 /* Demo 1: Turn on Flexbox on the parent. */
 .demo-one {
@@ -34,9 +34,10 @@
   
 }
 
-/* =====================================================
-   ON YOUR OWN: Try to figure out how to do these challenges
-   ===================================================== */
+/* ======================================
+   ON YOUR OWN: 
+   Try to figure out how to do these challenges
+   ====================================== */
 
 .challenge-one {
   
@@ -57,9 +58,9 @@
 
 
 
-/* =====================================================
+/* ======================================
    PROVIDED APPEARANCE STYLES — DO NOT EDIT BELOW HERE
-   ===================================================== */
+   ====================================== */
 
 body {
     font-family: Arial, sans-serif;
@@ -199,6 +200,10 @@ align-items: center;
 .challenge-three {
     max-width: 425px;
     min-height: 110px;
+}
+
+.challenge-section img.png {
+  max-width: 400px;
 }
 
 .challenge-three button {
