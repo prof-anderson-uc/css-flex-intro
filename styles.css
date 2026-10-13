@@ -1,101 +1,199 @@
-/* ===========================================================
-   LEARNING CSS FLEXBOX — YOUR WORK GOES HERE
-   Follow the instructor for Demos 1–6.
-   The four challenges at the end are independent work.
-   Only the base styles below are already finished for you.
-   =========================================================== */
+/* =====================================================
+   LEARNING CSS FLEXBOX
+   Write your Flexbox properties in these rules.
+   Leave the provided appearance styles below alone.
+   ===================================================== */
 
-/* Demo 1: Turn on Flexbox on the PARENT. */
+/* Demo 1: Turn on Flexbox on the parent. */
 .demo-one {
-
 }
 
-/* Demo 2: A column instead of a row. */
+/* Demo 2: Change a row into a column. */
 .demo-two {
-
 }
 
-/* Demo 3: Align and distribute items along the MAIN axis. */
+/* Demo 3: Arrange items on the main axis. */
 .demo-three {
-
 }
 
-/* Demo 4: Align items along the CROSS axis.
-   The container height is already set in the base styles. */
+/* Demo 4: Center items on both axes. */
 .demo-four {
-
 }
 
-/* Demo 5: Allow wrapping and create consistent space. */
+/* Demo 5: Wrap items and add spacing. */
 .demo-five {
-
 }
 
-/* Demo 6: Turn the navigation UL into a flex container. */
+/* Demo 6: Arrange a navigation list. */
 .demo-six {
-
 }
 
-/* ===========================================================
-   ON YOUR OWN — NO STEP-BY-STEP SOLUTIONS HERE
-   Decide which properties each container needs.
-   Hints are in Canvas, not in these project files.
-   =========================================================== */
+/* =====================================================
+   ON YOUR OWN: Try these without copying the instructor.
+   ===================================================== */
 
 .challenge-one {
-
 }
 
 .challenge-two {
-
 }
 
 .challenge-three {
-
 }
 
 .challenge-four {
-
 }
 
-/* ===========================================================
-   BASE STYLES — PROVIDED FOR YOU
-   You do not need to change anything below this line.
-   =========================================================== */
+/* =====================================================
+   PROVIDED APPEARANCE STYLES — DO NOT EDIT BELOW HERE
+   These make the examples easy to see.
+   ===================================================== */
 
-* { box-sizing: border-box; }
-body { margin:0; background:#c0cac9; color:#242936; font-family:Arial, Helvetica, sans-serif; line-height:1.5; }
-.wrapper { max-width:980px; margin:0 auto; background:white; min-height:100vh; }
-.page-heading { padding:2rem; background:#eef3f6; border-bottom:4px solid #bdcbd3; }
-.eyebrow { color:#395d73; font-size:.8rem; letter-spacing:.08em; text-transform:uppercase; font-weight:bold; }
-main {padding:1.5rem;}
-h1 {font-size:2.2rem; margin:.25rem 0 1rem;}
-h2 {font-size:1.45rem; margin:0 0 .65rem;}
-h3 {margin:0 0 .6rem;}
-p {margin:.4rem 0 1rem;}
-code {font-family:Consolas,Monaco,monospace; background:#eef0f3; padding:.12rem .35rem; border-radius:3px;}
-.demo-section {border:2px solid #c8d0d7; border-radius:12px; padding:1.3rem; margin:1.6rem 0;}
-.intro,.reflection,.challenge-intro {padding:1rem; background:#eef3f6; border-radius:10px;}
-.challenge-intro {background:#e3ebff; border:2px solid #637cbb; margin-top:2.5rem;}
-.practice-area,.challenge-surface {padding:12px; border:2px dashed #8094a7; background:#f4f6f8; margin-top:1rem;}
-.practice-area {min-height:105px;}
-.flex-item {padding:12px 20px; background:#bed9eb; border:2px solid #648fae; border-radius:6px; text-align:center; margin:0; width:max-content;}
-.demo-four {height:180px;}
-.demo-five {max-width:460px;}
-.demo-navigation {background:#ecf0f4; border:2px solid #9aabb9; padding:12px;}
-.demo-navigation ul,.challenge-nav ul {margin:0; padding:0; list-style:none;}
-.demo-navigation li,.challenge-nav li {margin:0;}
-.demo-navigation a,.challenge-nav a {display:block; color:#223c59; background:#dce8f5; border:1px solid #b6cadd; border-radius:5px; padding:.5rem .7rem; text-decoration:none;}
-.small-note {font-size:.85rem; color:#536376; margin:.7rem 0 0;}
-.challenge-section {border-color:#627bb9;}
-.target-label {font-weight:bold; margin-bottom:.5rem;}
-.target-image {display:block; width:100%; max-width:650px; height:auto; border:1px solid #b1bdc9; border-radius:6px; background:#fff; margin-bottom:1rem;}
-.challenge-nav {background:#eff3f7; border:2px dashed #8094a7; padding:10px;}
-.challenge-nav ul {min-height:82px;}
-.challenge-two {height:200px;}
-.message {background:#ddf1e3; border:2px solid #6b9e7a; border-radius:8px; padding:10px 22px; width:max-content; font-weight:bold;}
-.challenge-three {max-width:475px; min-height:110px;}
-.challenge-three button {font:inherit; padding:10px 14px; background:#dce8f5; border:1px solid #7896b3; border-radius:5px; cursor:default;}
-.challenge-four {height:250px;}
-.label-box {background:#dce8f5; border:2px solid #7896b3; border-radius:5px; padding:5px 20px; width:110px; text-align:center;}
-.reflection {margin:2rem 0;}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    color: #222;
+    background-color: #e6eaed;
+    padding: 20px;
+}
+
+header, main {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+}
+
+header {
+    border-bottom: 4px solid #aac3d4;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 12px;
+}
+
+.demo-section, .challenge-intro, .intro, .reflection {
+    border: 2px solid #c4ccd2;
+    padding: 16px;
+    margin-bottom: 22px;
+}
+
+.challenge-intro {
+    background-color: #e4edfa;
+}
+
+.practice-area, .challenge-surface {
+    background-color: #f0f3f5;
+    border: 2px dashed #71879a;
+    padding: 12px;
+    margin-top: 12px;
+}
+
+.practice-area {
+    min-height: 100px;
+}
+
+.flex-item {
+    background-color: lightsteelblue;
+    border: 2px solid steelblue;
+    padding: 12px 20px;
+    width: 100px;
+    text-align: center;
+}
+
+/* Extra height makes vertical alignment easier to see. */
+.demo-four {
+    height: 180px;
+}
+
+/* A narrow container makes wrapping easier to see. */
+.demo-five {
+    max-width: 460px;
+}
+
+.demo-navigation, .challenge-nav {
+    background-color: #e2eaf0;
+    border: 2px solid #879eaf;
+    padding: 12px;
+}
+
+.demo-navigation ul, .challenge-nav ul {
+    list-style-type: none;
+}
+
+.demo-navigation a, .challenge-nav a {
+    display: block;
+    background-color: #c9dced;
+    padding: 8px 12px;
+    color: #222;
+    text-decoration: none;
+}
+
+.note {
+    font-size: .9rem;
+}
+
+.target {
+    display: block;
+    max-width: 650px;
+    width: 100%;
+    margin-bottom: 12px;
+    border: 1px solid #aaa;
+}
+
+.challenge-nav ul {
+    min-height: 82px;
+}
+
+.challenge-two {
+    height: 200px;
+}
+
+.message {
+    background-color: #ccebd2;
+    border: 2px solid #70a07a;
+    padding: 10px 22px;
+    width: 120px;
+    text-align: center;
+}
+
+.challenge-three {
+    max-width: 475px;
+    min-height: 110px;
+}
+
+.challenge-three button {
+    padding: 10px 14px;
+    background-color: #c9dced;
+    border: 1px solid #718fa8;
+}
+
+.challenge-four {
+    height: 250px;
+}
+
+.label-box {
+    background-color: #c9dced;
+    border: 2px solid #718fa8;
+    width: 110px;
+    padding: 5px 12px;
+    text-align: center;
+}
