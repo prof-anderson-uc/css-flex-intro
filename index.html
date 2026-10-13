@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learning CSS Flexbox</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="wrapper">
+  <header class="page-heading">
+    <p class="eyebrow">Web Design I • Coding Exercise</p>
+    <h1>Learning CSS Flexbox</h1>
+    <p>Flexbox organizes items along <strong>one main direction</strong>: a row or a column. Today we will experiment with six common situations, then solve four new problems independently.</p>
+  </header>
+  <main>
+    <section class="intro">
+      <h2>Remember the Big Idea</h2>
+      <p>The parent becomes a <strong>flex container</strong> when you give it <code>display: flex;</code>. Its <strong>direct children</strong> become flex items.</p>
+      <p>Flexbox is excellent for navigation links, toolbars, centering, and spacing items in a row or column. Next, we will use <strong>CSS Grid</strong> for larger two-dimensional page layouts.</p>
+    </section>
+    <section class="demo-section">
+      <h2>Demo 1: Turn On Flexbox</h2>
+      <p>Watch three boxes change from stacked blocks to a horizontal row. Which element is the parent?</p>
+      
+      <div class="practice-area demo-one">
+          <div class="flex-item">1</div>
+          <div class="flex-item">2</div>
+          <div class="flex-item">3</div>
+      </div>
+    </section>
+    <section class="demo-section">
+      <h2>Demo 2: Direction</h2>
+      <p>Start with a row, then make a column. Predict how the main axis changes.</p>
+      
+      <div class="practice-area demo-two">
+          <div class="flex-item">1</div>
+          <div class="flex-item">2</div>
+          <div class="flex-item">3</div>
+      </div>
+    </section>
+    <section class="demo-section">
+      <h2>Demo 3: Main-Axis Spacing</h2>
+      <p>Move three items to the center, then try space-between and space-evenly. Observe the spaces at the edges.</p>
+      
+      <div class="practice-area demo-three">
+          <div class="flex-item">Home</div>
+          <div class="flex-item">About</div>
+          <div class="flex-item">Contact</div>
+      </div>
+    </section>
+    <section class="demo-section">
+      <h2>Demo 4: Cross-Axis Alignment</h2>
+      <p>This container is deliberately tall. Position its items on the cross axis, then center them in both directions.</p>
+      
+      <div class="practice-area demo-four">
+          <div class="flex-item">A</div>
+          <div class="flex-item">B</div>
+          <div class="flex-item">C</div>
+      </div>
+    </section>
+    <section class="demo-section">
+      <h2>Demo 5: Wrapping and Gap</h2>
+      <p>Six buttons should move to another line when space runs out. Make the browser window narrower to test it. Use gap to control spacing.</p>
+      
+      <div class="practice-area demo-five">
+          <div class="flex-item">Edit</div>
+          <div class="flex-item">Preview</div>
+          <div class="flex-item">Publish</div>
+          <div class="flex-item">Settings</div>
+          <div class="flex-item">Help</div>
+          <div class="flex-item">Share</div>
+      </div>
+    </section>
+    <section class="demo-section">
+      <h2>Demo 6: A Real Navigation Menu</h2>
+      <p>Use Flexbox on the <strong>ul</strong>, not the individual list items. Turn a vertical list into a horizontal navigation menu.</p>
+      <nav class="demo-navigation" aria-label="Demo navigation">
+        <ul class="demo-six">
+          <li><a href="#navigation-demo">Home</a></li>
+          <li><a href="#navigation-demo">About</a></li>
+          <li><a href="#navigation-demo">Projects</a></li>
+          <li><a href="#navigation-demo">Contact</a></li>
+        </ul>
+      </nav>
+      <p class="small-note" id="navigation-demo">A navigation list is still a list in HTML. Flexbox only changes its appearance.</p>
+    </section>
+    <section class="challenge-intro">
+      <h2>On Your Own: Four Layout Problems</h2>
+      <p>Try these without following the instructor's code. Compare the result to each target picture. Your task is to choose the Flexbox properties yourself.</p>
+      <p><strong>Important:</strong> All the necessary HTML and visual styling are already provided. Add layout CSS only in the challenge area near the top of <code>styles.css</code>. Optional hints will be available in Canvas.</p>
+    </section>
+    <section class="demo-section challenge-section">
+      <h3>Challenge 1: Navigation Links</h3>
+      <p>Make four links form one row with equal space between their centers. The links should also sit in the vertical center of the bar.</p>
+      <p class="target-label">Target appearance:</p>
+      <img class="target-image" src="targets/challenge-1.svg" alt="Example of the desired layout for challenge 1." />
+            <nav class="challenge-nav" aria-label="Challenge navigation">
+        <ul class="challenge-one">
+          <li><a href="#challenge-area">Home</a></li>
+          <li><a href="#challenge-area">About</a></li>
+          <li><a href="#challenge-area">Portfolio</a></li>
+          <li><a href="#challenge-area">Contact</a></li>
+        </ul>
+      </nav>
+    </section>
+    <section class="demo-section challenge-section">
+      <h3>Challenge 2: Perfectly Centered</h3>
+      <p>Place the message in the exact middle of the tall rectangle, horizontally and vertically.</p>
+      <p class="target-label">Target appearance:</p>
+      <img class="target-image" src="targets/challenge-2.svg" alt="Example of the desired layout for challenge 2." />
+            <div class="challenge-surface challenge-two"><div class="message">Success!</div></div>
+    </section>
+    <section class="demo-section challenge-section">
+      <h3>Challenge 3: Flexible Toolbar</h3>
+      <p>Place the buttons side by side with consistent spacing. Make them move onto new lines rather than overflow when the window gets narrow.</p>
+      <p class="target-label">Target appearance:</p>
+      <img class="target-image" src="targets/challenge-3.svg" alt="Example of the desired layout for challenge 3." />
+            <div class="challenge-surface challenge-three"><button type="button">Edit</button><button type="button">Preview</button><button type="button">Publish</button><button type="button">Settings</button><button type="button">Share</button><button type="button">Help</button></div>
+    </section>
+    <section class="demo-section challenge-section">
+      <h3>Challenge 4: The Axis Challenge</h3>
+      <p>Stack three labels vertically, with a small consistent gap. Keep the group centered left to right but positioned toward the bottom of the tall rectangle.</p>
+      <p class="target-label">Target appearance:</p>
+      <img class="target-image" src="targets/challenge-4.svg" alt="Example of the desired layout for challenge 4." />
+            <div class="challenge-surface challenge-four"><div class="label-box">First</div><div class="label-box">Second</div><div class="label-box">Third</div></div>
+    </section>
+    <section class="reflection" id="challenge-area">
+      <h2>Think Ahead: Flex or Grid?</h2>
+      <p>Would you choose Flexbox or CSS Grid to organize a webpage into a header, main content, sidebar, and footer? Why?</p>
+      <p class="small-note">Discuss this question in class. No extra coding is required here.</p>
+    </section>
+  </main>
+</div>
+</body>
+</html>

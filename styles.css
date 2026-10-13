@@ -1,0 +1,101 @@
+/* ===========================================================
+   LEARNING CSS FLEXBOX — YOUR WORK GOES HERE
+   Follow the instructor for Demos 1–6.
+   The four challenges at the end are independent work.
+   Only the base styles below are already finished for you.
+   =========================================================== */
+
+/* Demo 1: Turn on Flexbox on the PARENT. */
+.demo-one {
+
+}
+
+/* Demo 2: A column instead of a row. */
+.demo-two {
+
+}
+
+/* Demo 3: Align and distribute items along the MAIN axis. */
+.demo-three {
+
+}
+
+/* Demo 4: Align items along the CROSS axis.
+   The container height is already set in the base styles. */
+.demo-four {
+
+}
+
+/* Demo 5: Allow wrapping and create consistent space. */
+.demo-five {
+
+}
+
+/* Demo 6: Turn the navigation UL into a flex container. */
+.demo-six {
+
+}
+
+/* ===========================================================
+   ON YOUR OWN — NO STEP-BY-STEP SOLUTIONS HERE
+   Decide which properties each container needs.
+   Hints are in Canvas, not in these project files.
+   =========================================================== */
+
+.challenge-one {
+
+}
+
+.challenge-two {
+
+}
+
+.challenge-three {
+
+}
+
+.challenge-four {
+
+}
+
+/* ===========================================================
+   BASE STYLES — PROVIDED FOR YOU
+   You do not need to change anything below this line.
+   =========================================================== */
+
+* { box-sizing: border-box; }
+body { margin:0; background:#c0cac9; color:#242936; font-family:Arial, Helvetica, sans-serif; line-height:1.5; }
+.wrapper { max-width:980px; margin:0 auto; background:white; min-height:100vh; }
+.page-heading { padding:2rem; background:#eef3f6; border-bottom:4px solid #bdcbd3; }
+.eyebrow { color:#395d73; font-size:.8rem; letter-spacing:.08em; text-transform:uppercase; font-weight:bold; }
+main {padding:1.5rem;}
+h1 {font-size:2.2rem; margin:.25rem 0 1rem;}
+h2 {font-size:1.45rem; margin:0 0 .65rem;}
+h3 {margin:0 0 .6rem;}
+p {margin:.4rem 0 1rem;}
+code {font-family:Consolas,Monaco,monospace; background:#eef0f3; padding:.12rem .35rem; border-radius:3px;}
+.demo-section {border:2px solid #c8d0d7; border-radius:12px; padding:1.3rem; margin:1.6rem 0;}
+.intro,.reflection,.challenge-intro {padding:1rem; background:#eef3f6; border-radius:10px;}
+.challenge-intro {background:#e3ebff; border:2px solid #637cbb; margin-top:2.5rem;}
+.practice-area,.challenge-surface {padding:12px; border:2px dashed #8094a7; background:#f4f6f8; margin-top:1rem;}
+.practice-area {min-height:105px;}
+.flex-item {padding:12px 20px; background:#bed9eb; border:2px solid #648fae; border-radius:6px; text-align:center; margin:0; width:max-content;}
+.demo-four {height:180px;}
+.demo-five {max-width:460px;}
+.demo-navigation {background:#ecf0f4; border:2px solid #9aabb9; padding:12px;}
+.demo-navigation ul,.challenge-nav ul {margin:0; padding:0; list-style:none;}
+.demo-navigation li,.challenge-nav li {margin:0;}
+.demo-navigation a,.challenge-nav a {display:block; color:#223c59; background:#dce8f5; border:1px solid #b6cadd; border-radius:5px; padding:.5rem .7rem; text-decoration:none;}
+.small-note {font-size:.85rem; color:#536376; margin:.7rem 0 0;}
+.challenge-section {border-color:#627bb9;}
+.target-label {font-weight:bold; margin-bottom:.5rem;}
+.target-image {display:block; width:100%; max-width:650px; height:auto; border:1px solid #b1bdc9; border-radius:6px; background:#fff; margin-bottom:1rem;}
+.challenge-nav {background:#eff3f7; border:2px dashed #8094a7; padding:10px;}
+.challenge-nav ul {min-height:82px;}
+.challenge-two {height:200px;}
+.message {background:#ddf1e3; border:2px solid #6b9e7a; border-radius:8px; padding:10px 22px; width:max-content; font-weight:bold;}
+.challenge-three {max-width:475px; min-height:110px;}
+.challenge-three button {font:inherit; padding:10px 14px; background:#dce8f5; border:1px solid #7896b3; border-radius:5px; cursor:default;}
+.challenge-four {height:250px;}
+.label-box {background:#dce8f5; border:2px solid #7896b3; border-radius:5px; padding:5px 20px; width:110px; text-align:center;}
+.reflection {margin:2rem 0;}
